@@ -313,8 +313,8 @@ const socialLinks = [
 ];
 
 const initialGuestbook = [
-    { id: 1, name: "David Chen", message: "Stunning portfolio! The animations and glassmorphism look breathtaking. Keep up the legendary work!", date: "2026-06-18" },
-    { id: 2, name: "Dewi Lestari", message: "Situs web yang sangat rapi dan profesional! Suka sekali dengan tema gelapnya.", date: "2026-06-17" }
+    { id: 1, name: "Jep Store", message: "Work cuy. tq", date: "2026-06-18" },
+    { id: 2, name: "Kaisar Alif", message: "Mantap Bung.", date: "2026-06-17" }
 ];
 
 /* ==========================================
