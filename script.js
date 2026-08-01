@@ -309,7 +309,7 @@ const testimonialsList = [
 const socialLinks = [
     { name: "WhatsApp", icon: "fa-brands fa-whatsapp", url: "https://wa.link/s3dmn1" },
     { name: "Instagram", icon: "fa-brands fa-instagram", url: "https://www.instagram.com/banh_roenz" },
-    { name: "Telegram", icon: "fa-brands fa-telegram", url: "https://telegram.org" },
+    { name: "Telegram", icon: "fa-brands fa-telegram", url: "https://t.me/mbahgendutt" },
 ];
 
 const initialGuestbook = [
