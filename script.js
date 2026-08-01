@@ -301,9 +301,9 @@ const blogList = [
 ];
 
 const testimonialsList = [
-    { quote: "Banh Roenz delivered our cloud workspace frontend weeks ahead of schedule. His attention to micro-interactions and performance is unmatched.", name: "Marcus Vance", title: "CTO at CloudVerve Inc." },
-    { quote: "The Android banking app he engineered for us is lightning-fast and flawless. Our users love the biometric login and smooth transitions.", name: "Siti Rahma", title: "Head of Product at NexusPay" },
-    { quote: "A rare breed of engineer who combines elite coding chops with world-class UI/UX aesthetic sense. Absolute pleasure to work with.", name: "Elena Rostova", title: "Design Director at LinearStudio" }
+    { quote: "Banh Roenz delivered our cloud workspace frontend weeks ahead of schedule. His attention to micro-interactions and performance is unmatched.", name: "Black Kecil", title: "CTO at CloudVerve Inc." },
+    { quote: "The Android banking app he engineered for us is lightning-fast and flawless. Our users love the biometric login and smooth transitions.", name: "Abenk Yahya", title: "Head of Product at NexusPay" },
+    { quote: "A rare breed of engineer who combines elite coding chops with world-class UI/UX aesthetic sense. Absolute pleasure to work with.", name: "Kaisar Alif", title: "Design Director at LinearStudio" }
 ];
 
 const socialLinks = [
