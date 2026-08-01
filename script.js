@@ -15,7 +15,7 @@ const translations = {
         },
         hero: {
             greeting: "Hello, I'm",
-            name: "Alexandro V. Mercer",
+            name: "Harun Mugiartha",
             typingTexts: [
                 "Android Developer",
                 "Web Developer",
@@ -104,7 +104,7 @@ const translations = {
             successMsg: "Message sent successfully! I will get back to you shortly."
         },
         footer: {
-            copyright: "&copy; 2026 Alexandro V. Mercer. All rights reserved."
+            copyright: "&copy; 2026 Harun Mugiartha. All rights reserved."
         }
     },
     id: {
@@ -120,7 +120,7 @@ const translations = {
         },
         hero: {
             greeting: "Halo, Saya",
-            name: "Alexandro V. Mercer",
+            name: "Harun Mugiartha",
             typingTexts: [
                 "Pengembang Android",
                 "Pengembang Web",
@@ -209,7 +209,7 @@ const translations = {
             successMsg: "Pesan berhasil terkirim! Saya akan segera menghubungi Anda."
         },
         footer: {
-            copyright: "&copy; 2026 Alexandro V. Mercer. Hak cipta dilindungi."
+            copyright: "&copy; 2026 Harun Mugiartha. Hak cipta dilindungi."
         }
     }
 };
