@@ -35,7 +35,7 @@ const translations = {
         about: {
             title: "About Me",
             subtitle: "Engineering high-end software with relentless attention to detail.",
-            locationVal: "Adipala, Cilacap, Jawa Tengah Indonesia",
+            locationVal: "Adipala, Indonesia",
             status: "Students",
             languagesVal: "English, Indonesian, Japanese",
             visionTitle: "Engineering Philosophy & Vision",
@@ -140,8 +140,8 @@ const translations = {
         about: {
             title: "Tentang Saya",
             subtitle: "Membangun perangkat lunak kelas atas dengan perhatian tinggi pada detail.",
-            locationVal: "Jakarta, Indonesia / Jarak Jauh",
-            status: "Tersedia untuk Proyek Pilihan",
+            locationVal: "Adipala, Indonesia",
+            status: "Students",
             languagesVal: "Inggris, Indonesia, Jepang",
             visionTitle: "Filosofi & Visi Teknik",
             bio: "Saya adalah seorang insinyur perangkat lunak dan kreator digital yang berpusat di Jakarta. Dengan pengalaman lebih dari 5 tahun dalam pemrograman dan desain, saya berspesialisasi dalam menjembatani desain visual yang memukau dan arsitektur sistem yang tangguh.",
@@ -301,7 +301,7 @@ const blogList = [
 ];
 
 const testimonialsList = [
-    { quote: "Alexandro delivered our cloud workspace frontend weeks ahead of schedule. His attention to micro-interactions and performance is unmatched.", name: "Marcus Vance", title: "CTO at CloudVerve Inc." },
+    { quote: "Banh Roenz delivered our cloud workspace frontend weeks ahead of schedule. His attention to micro-interactions and performance is unmatched.", name: "Marcus Vance", title: "CTO at CloudVerve Inc." },
     { quote: "The Android banking app he engineered for us is lightning-fast and flawless. Our users love the biometric login and smooth transitions.", name: "Siti Rahma", title: "Head of Product at NexusPay" },
     { quote: "A rare breed of engineer who combines elite coding chops with world-class UI/UX aesthetic sense. Absolute pleasure to work with.", name: "Elena Rostova", title: "Design Director at LinearStudio" }
 ];
