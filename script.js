@@ -309,11 +309,7 @@ const testimonialsList = [
 const socialLinks = [
     { name: "WhatsApp", icon: "fa-brands fa-whatsapp", url: "https://wa.link/s3dmn1" },
     { name: "Instagram", icon: "fa-brands fa-instagram", url: "https://www.instagram.com/banh_roenz" },
-    { name: "Facebook", icon: "fa-brands fa-facebook", url: "https://facebook.com" },
-    { name: "GitHub", icon: "fa-brands fa-github", url: "https://github.com" },
     { name: "Telegram", icon: "fa-brands fa-telegram", url: "https://telegram.org" },
-    { name: "TikTok", icon: "fa-brands fa-tiktok", url: "https://tiktok.com" },
-    { name: "LinkedIn", icon: "fa-brands fa-linkedin", url: "https://linkedin.com" }
 ];
 
 const initialGuestbook = [
