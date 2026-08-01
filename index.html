@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexandro V. Mercer — Personal Portfolio</title>
+    <meta name="description" content="Professional Personal Portfolio of Alexandro V. Mercer - Android & Full Stack Developer">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome CDN for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Loading Screen -->
+    <div id="loading-screen" data-testid="loading-screen">
+        <div class="loader-spinner">
+            <div class="spinner-ring"></div>
+            <div class="spinner-core">AM</div>
+        </div>
+        <h2 class="loader-title">Alexandro.V Mercer // 2026</h2>
+        <div class="loader-bar-bg">
+            <div class="loader-bar-fill"></div>
+        </div>
+    </div>
+
+    <!-- Scroll Progress Bar -->
+    <div id="scroll-progress" data-testid="scroll-progress-bar"></div>
+
+    <!-- Cursor Glow Effect -->
+    <div id="cursor-glow"></div>
+
+    <!-- Background Floating Orbs -->
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+    <div class="bg-orb orb-3"></div>
+
+    <!-- Sticky Navigation Bar -->
+    <header id="site-header">
+        <nav id="navbar" data-testid="navbar">
+            <div class="nav-container">
+                <a href="#home" data-testid="nav-logo" class="nav-logo">
+                    <div class="logo-badge">AM</div>
+                    <span class="logo-text">Alexandro.V</span>
+                </a>
+
+                <div class="nav-links" id="nav-links">
+                    <a href="#home" data-testid="nav-link-home" data-i18n="nav.home">Home</a>
+                    <a href="#about" data-testid="nav-link-about" data-i18n="nav.about">About</a>
+                    <a href="#skills" data-testid="nav-link-skills" data-i18n="nav.skills">Skills</a>
+                    <a href="#projects" data-testid="nav-link-projects" data-i18n="nav.projects">Projects</a>
+                    <a href="#portfolio" data-testid="nav-link-portfolio" data-i18n="nav.portfolio">Portfolio</a>
+                    <a href="#timeline" data-testid="nav-link-timeline" data-i18n="nav.timeline">Timeline</a>
+                    <a href="#blog" data-testid="nav-link-blog" data-i18n="nav.blog">Blog</a>
+                    <a href="#contact" data-testid="nav-link-contact" data-i18n="nav.contact">Contact</a>
+                </div>
+
+                <div class="nav-actions">
+                    <button id="lang-switch" data-testid="lang-switch-btn" class="action-btn" aria-label="Switch Language">
+                        <i class="fa-solid fa-globe text-emerald"></i>
+                        <span id="lang-label">EN</span>
+                    </button>
+                    <button id="theme-toggle" data-testid="theme-toggle-btn" class="action-btn" aria-label="Toggle Theme">
+                        <i id="theme-icon" class="fa-solid fa-sun"></i>
+                    </button>
+                    <button id="mobile-menu-btn" data-testid="mobile-menu-btn" class="action-btn mobile-only" aria-label="Mobile Menu">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Mobile Dropdown Menu -->
+    <div id="mobile-menu" class="mobile-menu-dropdown">
+        <a href="#home" data-i18n="nav.home">Home</a>
+        <a href="#about" data-i18n="nav.about">About</a>
+        <a href="#skills" data-i18n="nav.skills">Skills</a>
+        <a href="#projects" data-i18n="nav.projects">Projects</a>
+        <a href="#portfolio" data-i18n="nav.portfolio">Portfolio</a>
+        <a href="#timeline" data-i18n="nav.timeline">Timeline</a>
+        <a href="#blog" data-i18n="nav.blog">Blog</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+    </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <div class="status-pill">
+                        <i class="fa-solid fa-sparkles text-emerald"></i>
+                        <span data-i18n="about.status">Available for Select Projects</span>
+                    </div>
+                    <h1 class="hero-title">
+                        <span data-i18n="hero.greeting">Hello, I'm</span><br>
+                        <span class="gradient-text" data-i18n="hero.name">Alexandro V. Mercer</span>
+                    </h1>
+                    <div class="typing-container">
+                        <span class="typing-prompt">&gt;</span>
+                        <span id="typing-text" class="typing-text"></span>
+                        <span class="typing-cursor"></span>
+                    </div>
+                    <p class="hero-desc" data-i18n="hero.description">
+                        Crafting minimalist digital products, immersive web experiences, and high-performance native Android applications with Apple & Vercel precision.
+                    </p>
+                    <div class="hero-btns">
+                        <a href="#contact" data-testid="hero-download-cv-btn" class="btn btn-primary ripple-btn">
+                            <i class="fa-solid fa-download"></i>
+                            <span data-i18n="hero.downloadCv">Download CV</span>
+                        </a>
+                        <a href="#contact" data-testid="hero-contact-btn" class="btn btn-outline ripple-btn">
+                            <i class="fa-solid fa-paper-plane text-emerald"></i>
+                            <span data-i18n="hero.contactMe">Contact Me</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-avatar-wrapper">
+                    <div class="avatar-glow"></div>
+                    <div class="avatar-card">
+                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80" alt="Alexandro V. Mercer" data-testid="profile-image">
+                        <div class="avatar-badge">
+                            <div class="badge-dot"></div>
+                            <div>
+                                <small data-i18n="about.experienceLabel">Experience</small>
+                                <strong data-i18n="about.experienceVal">5+ Years Active</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Statistics Section -->
+        <section class="stats-section">
+            <div class="container stats-grid">
+                <div class="stat-card" data-testid="stat-card-0">
+                    <div class="stat-icon"><i class="fa-solid fa-layer-group"></i></div>
+                    <h3 class="counter" data-target="20">0</h3><span class="stat-suffix">+</span>
+                    <p data-i18n="stats.projects">Projects Completed</p>
+                </div>
+                <div class="stat-card" data-testid="stat-card-1">
+                    <div class="stat-icon"><i class="fa-solid fa-users"></i></div>
+                    <h3 class="counter" data-target="50">0</h3><span class="stat-suffix">+</span>
+                    <p data-i18n="stats.clients">Global Clients</p>
+                </div>
+                <div class="stat-card" data-testid="stat-card-2">
+                    <div class="stat-icon"><i class="fa-solid fa-award"></i></div>
+                    <h3 class="counter" data-target="5">0</h3><span class="stat-suffix">+</span>
+                    <p data-i18n="stats.learning">Years Learning</p>
+                </div>
+                <div class="stat-card" data-testid="stat-card-3">
+                    <div class="stat-icon"><i class="fa-solid fa-clock"></i></div>
+                    <h3 class="counter" data-target="1000">0</h3><span class="stat-suffix">+</span>
+                    <p data-i18n="stats.hours">Coding Hours</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-i18n="about.title">About Me</h2>
+                    <p data-i18n="about.subtitle">Engineering high-end software with relentless attention to detail.</p>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-card">
+                        <h3>Quick Details <span class="badge-mono">ID-2026</span></h3>
+                        <div class="detail-list">
+                            <div class="detail-row">
+                                <span class="text-muted">Location:</span>
+                                <span data-i18n="about.locationVal">Jakarta, Indonesia / Remote</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="text-muted">Email:</span>
+                                <span class="text-emerald">alexandro.mercer@devpulse.io</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="text-muted">Status:</span>
+                                <span class="text-emerald" data-i18n="about.status">Available for Select Projects</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="text-muted">Languages:</span>
+                                <span data-i18n="about.languagesVal">English, Indonesian, Japanese</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-text-content">
+                        <h3 class="text-emerald" data-i18n="about.visionTitle">Engineering Philosophy & Vision</h3>
+                        <p data-i18n="about.bio">
+                            I am a passionate software engineer and digital creator based in Jakarta & San Francisco. With over 5 years of dedicated coding and design experience, I specialize in bridging the gap between breathtaking visual design and robust system architecture. My philosophy is rooted in minimalism, speed, and uncompromising quality.
+                        </p>
+                        <p data-i18n="about.careerGoals">
+                            Aiming to architect next-generation cloud and mobile platforms that empower millions of users worldwide with seamless interaction models.
+                        </p>
+                        <div class="about-action-btns">
+                            <a href="#projects" class="btn btn-primary" data-i18n="about.exploreBtn">Explore Work</a>
+                            <a href="#contact" class="btn btn-outline" data-i18n="about.talkBtn">Let's Talk</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section section-alt">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-i18n="skills.title">Technical Arsenal</h2>
+                    <p data-i18n="skills.subtitle">Tools and frameworks I leverage to bring concepts to life.</p>
+                </div>
+
+                <div class="skills-grid" id="skills-grid">
+                    <!-- Populated via JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-i18n="projects.title">Featured Projects</h2>
+                    <p data-i18n="projects.subtitle">Production-grade applications built with modern stacks.</p>
+                </div>
+
+                <div class="projects-grid" id="projects-grid">
+                    <!-- Populated via JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Gallery -->
+        <section id="portfolio" class="section section-alt">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-i18n="portfolio.title">Portfolio Gallery</h2>
+                    <p data-i18n="portfolio.subtitle">Explore curated visual works, UI mockups, and mobile designs.</p>
+                </div>
+
+                <div class="gallery-filters" id="gallery-filters">
+                    <button class="filter-btn active" data-filter="all" data-i18n="portfolio.all">All</button>
+                    <button class="filter-btn" data-filter="websites" data-i18n="portfolio.websites">Websites</button>
+                    <button class="filter-btn" data-filter="android" data-i18n="portfolio.android">Android Apps</button>
+                    <button class="filter-btn" data-filter="posters" data-i18n="portfolio.posters">Posters</button>
+                    <button class="filter-btn" data-filter="ui" data-i18n="portfolio.ui">UI Designs</button>
+                    <button class="filter-btn" data-filter="logos" data-i18n="portfolio.logos">Logos</button>
+                </div>
+
+                <div class="gallery-grid" id="gallery-grid">
+                    <!-- Populated via JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Lightbox Modal -->
+        <div id="lightbox-modal" class="lightbox" data-testid="lightbox-modal">
+            <div class="lightbox-content">
+                <button id="lightbox-close" class="lightbox-close" data-testid="lightbox-close-btn">&times;</button>
+                <img id="lightbox-img" src="" alt="Lightbox Preview">
+                <div class="lightbox-caption">
+                    <span id="lightbox-cat" class="badge-mono">CATEGORY</span>
+                    <h3 id="lightbox-title">Title</h3>
+                    <p id="lightbox-desc">Description</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Timeline Section -->
+        <section id="timeline" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-i18n="timeline.title">Career Timeline</h2>
+                    <p data-i18n="timeline.subtitle">My continuous journey of mastery and innovation.</p>
+                </div>
+
+                <div class="timeline-wrapper">
+                    <div class="timeline-line"></div>
+                    <div id="timeline-list" class="timeline-list">
+                        <!-- Populated via JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Favorite Things Section -->
+        <section class="section section-alt">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-i18n="favorites.title">Favorite Things</h2>
+                    <p data-i18n="favorites.subtitle">Passions and daily rituals that fuel my creativity.</p>
+                </div>
+
+                <div class="favorites-grid" id="favorites-grid">
+                    <!-- Populated via JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Section -->
+        <section id="blog" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-i18n="blog.title">Latest Articles</h2>
+                    <p data-i18n="blog.subtitle">Thoughts on engineering, design systems, and mobile architecture.</p>
+                </div>
+
+                <div class="blog-grid" id="blog-grid">
+                    <!-- Populated via JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="section section-alt">
+            <div class="container testimonial-container">
+                <div class="section-header">
+                    <h2 data-i18n="testimonials.title">Client Testimonials</h2>
+                    <p data-i18n="testimonials.subtitle">What founders and engineering leaders say about collaborating with me.</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <i class="fa-solid fa-star text-emerald testimonial-star"></i>
+                    <p id="testimonial-quote" class="testimonial-quote">Quote</p>
+                    <h4 id="testimonial-name" class="testimonial-name text-emerald">Name</h4>
+                    <small id="testimonial-title" class="text-muted">Title</small>
+                    <div class="testimonial-dots" id="testimonial-dots">
+                        <!-- Populated via JS -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Guestbook Section -->
+        <section class="section">
+            <div class="container guestbook-container">
+                <div class="section-header">
+                    <h2 data-i18n="guestbook.title">Visitor Guestbook</h2>
+                    <p data-i18n="guestbook.subtitle">Leave your mark, feedback, or a friendly greeting!</p>
+                </div>
+
+                <div class="guestbook-card">
+                    <div id="guestbook-alert" class="alert success hidden" data-testid="guestbook-success-alert">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <span data-i18n="guestbook.successMsg">Thank you! Your message has been pinned to the guestbook.</span>
+                    </div>
+
+                    <form id="guestbook-form">
+                        <div class="form-group">
+                            <input type="text" id="gb-name" data-testid="guestbook-name-input" placeholder="Your Name / Handle" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="gb-message" data-testid="guestbook-message-input" rows="3" placeholder="Write a friendly message..." required></textarea>
+                        </div>
+                        <button type="submit" data-testid="guestbook-submit-btn" class="btn btn-primary ripple-btn" data-i18n="guestbook.submitButton">Sign Guestbook</button>
+                    </form>
+                </div>
+
+                <div id="guestbook-list" class="guestbook-list">
+                    <!-- Populated via JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section section-alt">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-i18n="contact.title">Get In Touch</h2>
+                    <p data-i18n="contact.subtitle">Let's build something exceptional together. Drop a line below.</p>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-social-card">
+                        <h3 data-i18n="contact.socialTitle">Connect on Socials</h3>
+                        <p class="text-muted" data-i18n="contact.socialDesc">Reach out instantly through any of the channels below or fill out the secure contact dispatch form.</p>
+                        <div class="social-links-grid" id="social-links-grid">
+                            <!-- Populated via JS -->
+                        </div>
+                    </div>
+
+                    <div class="contact-form-card">
+                        <div id="contact-alert" class="alert success hidden" data-testid="contact-success-alert">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span data-i18n="contact.successMsg">Message sent successfully! I will get back to you shortly.</span>
+                        </div>
+
+                        <form id="contact-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label class="form-label" data-i18n="contact.nameLabel">Your Name</label>
+                                    <input type="text" id="c-name" data-testid="contact-name-input" required>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label" data-i18n="contact.emailLabel">Your Email</label>
+                                    <input type="email" id="c-email" data-testid="contact-email-input" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" data-i18n="contact.subjectLabel">Subject</label>
+                                <input type="text" id="c-subject" data-testid="contact-subject-input" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" data-i18n="contact.messageLabel">Message</label>
+                                <textarea id="c-message" data-testid="contact-message-input" rows="4" required></textarea>
+                            </div>
+                            <button type="submit" data-testid="contact-submit-btn" class="btn btn-primary btn-full ripple-btn">
+                                <i class="fa-solid fa-paper-plane"></i>
+                                <span data-i18n="contact.sendButton">Send Message</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="site-footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <div class="logo-badge">AM</div>
+                <span class="copyright-text" data-i18n="footer.copyright">&copy; 2026 Alexandro V. Mercer. All rights reserved.</span>
+            </div>
+            <div class="footer-links">
+                <a href="#home" data-i18n="nav.home">Home</a>
+                <a href="#about" data-i18n="nav.about">About</a>
+                <a href="#projects" data-i18n="nav.projects">Projects</a>
+                <a href="#contact" data-i18n="nav.contact">Contact</a>
+            </div>
+            <a href="#home" data-testid="back-to-top-btn" class="back-to-top-btn" aria-label="Back to Top">
+                <i class="fa-solid fa-arrow-up"></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
