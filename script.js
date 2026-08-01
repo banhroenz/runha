@@ -35,8 +35,8 @@ const translations = {
         about: {
             title: "About Me",
             subtitle: "Engineering high-end software with relentless attention to detail.",
-            locationVal: "Jakarta, Indonesia / Remote",
-            status: "Available for Select Projects",
+            locationVal: "Adipala, Cilacap, Jawa Tengah Indonesia",
+            status: "Students",
             languagesVal: "English, Indonesian, Japanese",
             visionTitle: "Engineering Philosophy & Vision",
             bio: "I am a passionate software engineer and digital creator based in Jakarta & San Francisco. With over 5 years of dedicated coding and design experience, I specialize in bridging the gap between breathtaking visual design and robust system architecture. My philosophy is rooted in minimalism, speed, and uncompromising quality.",
