@@ -158,8 +158,8 @@ const translations = {
         projects: {
             title: "Proyek Unggulan",
             subtitle: "Aplikasi tingkat produksi yang dibangun dengan teknologi modern.",
-            liveDemo: "Demo Langsung",
-            sourceCode: "Kode Sumber"
+            liveDemo: "Download",
+            sourceCode: "Key"
         },
         portfolio: {
             title: "Galeri Portofolio",
@@ -233,12 +233,12 @@ const skillsList = [
 const projectsList = [
     {
         id: 1,
-        title: "AuraOS Cloud Workspace",
-        description: "A lightning-fast browser operating system interface with real-time collaborative docs, window tiling, and encrypted cloud storage.",
-        image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80",
-        technologies: ["React", "TypeScript", "Tailwind", "WebSocket"],
-        liveUrl: "https://example.com/aura",
-        githubUrl: "https://github.com/alexandro/aura-os"
+        title: "MovieBox Streaming Platform",
+        description: "Aplikasi streaming film dengan harga terjangkau, antarmuka modern, serta pengalaman menonton yang cepat, nyaman, dan berkualitas.",
+        image: "assets/images/moviebox.jpg",
+        technologies: ["Streaming", "APK Modifikasi"],
+        liveUrl: "https://www.mediafire.com/file/c1r824zx1u5jy9n/MovieBox_3.0.14.0422.03.apk/file",
+        githubUrl: "https://wa.link/s3dmn1"
     },
     {
         id: 2,
