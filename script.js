@@ -237,8 +237,8 @@ const projectsList = [
         description: "Aplikasi streaming film dengan harga terjangkau, antarmuka modern, serta pengalaman menonton yang cepat, nyaman, dan berkualitas.",
         image: "assets/images/moviebox.jpg",
         technologies: ["Streaming", "APK Modifikasi"],
-        liveUrl: "https://www.mediafire.com/file/c1r824zx1u5jy9n/MovieBox_3.0.14.0422.03.apk/file",
-        githubUrl: "https://wa.link/s3dmn1"
+        downloadUrl: "https://www.mediafire.com/file/c1r824zx1u5jy9n/MovieBox_3.0.14.0422.03.apk/file",
+        keyUrl: "https://wa.link/s3dmn1"
     },
     {
         id: 2,
