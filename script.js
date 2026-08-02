@@ -39,7 +39,7 @@ const translations = {
             status: "Students",
             languagesVal: "English, Indonesian, Japanese",
             visionTitle: "Engineering Philosophy & Vision",
-            bio: "I am a passionate software engineer and digital creator based in Jakarta & San Francisco. With over 5 years of dedicated coding and design experience, I specialize in bridging the gap between breathtaking visual design and robust system architecture. My philosophy is rooted in minimalism, speed, and uncompromising quality.",
+            bio: "A student passionate about technology, focusing on application modification, editing, and software exploration. I believe that every project is an opportunity to learn, grow, and continuously improve my skills.",
             careerGoals: "Aiming to architect next-generation cloud and mobile platforms that empower millions of users worldwide with seamless interaction models.",
             exploreBtn: "Explore Work",
             talkBtn: "Let's Talk",
@@ -313,7 +313,7 @@ const socialLinks = [
 ];
 
 const initialGuestbook = [
-    { id: 1, name: "Jep Store", message: "Work cuy. tq", date: "2026-06-18" },
+    { id: 1, name: "Jep Store", message: "Work cuy tq", date: "2026-06-18" },
     { id: 2, name: "Kaisar Alif", message: "Mantap Bung.", date: "2026-06-17" }
 ];
 
