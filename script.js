@@ -53,8 +53,8 @@ const translations = {
         projects: {
             title: "Featured Projects",
             subtitle: "Production-grade applications built with modern stacks.",
-            Download: "Live Demo",
-            Key: "Source"
+            Live Demo: "Download",
+            Source: "key"
         },
         portfolio: {
             title: "Portfolio Gallery",
@@ -158,8 +158,8 @@ const translations = {
         projects: {
             title: "Proyek Unggulan",
             subtitle: "Aplikasi tingkat produksi yang dibangun dengan teknologi modern.",
-            Download: "Live Demo",
-            Key: "Source"
+            Live Demo: "Download",
+            Source: "key"
         },
         portfolio: {
             title: "Galeri Portofolio",
@@ -237,8 +237,8 @@ const projectsList = [
         description: "Aplikasi streaming film dengan harga terjangkau, antarmuka modern, serta pengalaman menonton yang cepat, nyaman, dan berkualitas.",
         image: "assets/images/moviebox.jpg",
         technologies: ["Streaming", "APK Modifikasi"],
-        downloadUrl: "https://www.mediafire.com/file/c1r824zx1u5jy9n/MovieBox_3.0.14.0422.03.apk/file",
-        keyUrl: "https://wa.link/s3dmn1"
+        liveUrl: "https://www.mediafire.com/file/c1r824zx1u5jy9n/MovieBox_3.0.14.0422.03.apk/file",
+        githubUrl: "https://wa.link/s3dmn1"
     },
     {
         id: 2,
