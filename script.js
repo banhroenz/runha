@@ -53,8 +53,8 @@ const translations = {
         projects: {
             title: "Featured Projects",
             subtitle: "Production-grade applications built with modern stacks.",
-            Download: "Download",
-            Key: "Key"
+            Download: "Live Demo",
+            Key: "Source"
         },
         portfolio: {
             title: "Portfolio Gallery",
@@ -158,8 +158,8 @@ const translations = {
         projects: {
             title: "Proyek Unggulan",
             subtitle: "Aplikasi tingkat produksi yang dibangun dengan teknologi modern.",
-            Download: "Download",
-            Key: "Key"
+            Download: "Live Demo",
+            Key: "Source"
         },
         portfolio: {
             title: "Galeri Portofolio",
