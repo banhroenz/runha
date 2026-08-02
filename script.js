@@ -141,7 +141,7 @@ const translations = {
             title: "Tentang Saya",
             subtitle: "Membangun perangkat lunak kelas atas dengan perhatian tinggi pada detail.",
             locationVal: "Adipala, Indonesia",
-            status: "Students",
+            status: "Pelajar",
             languagesVal: "Inggris, Indonesia, Jepang",
             visionTitle: "Filosofi & Visi Teknik",
             bio: "Seorang pelajar yang memiliki minat besar terhadap dunia teknologi, dengan fokus pada modifikasi aplikasi, editing, dan eksplorasi perangkat lunak. Saya percaya bahwa setiap proyek merupakan kesempatan untuk belajar, berkembang, dan terus meningkatkan kemampuan saya.",
