@@ -53,8 +53,8 @@ const translations = {
         projects: {
             title: "Featured Projects",
             subtitle: "Production-grade applications built with modern stacks.",
-            liveDemo: "Live Demo",
-            sourceCode: "Source Code"
+            Download: "Download",
+            Key: "Key"
         },
         portfolio: {
             title: "Portfolio Gallery",
