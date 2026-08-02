@@ -144,7 +144,7 @@ const translations = {
             status: "Students",
             languagesVal: "Inggris, Indonesia, Jepang",
             visionTitle: "Filosofi & Visi Teknik",
-            bio: "Saya adalah seorang insinyur perangkat lunak dan kreator digital yang berpusat di Jakarta. Dengan pengalaman lebih dari 5 tahun dalam pemrograman dan desain, saya berspesialisasi dalam menjembatani desain visual yang memukau dan arsitektur sistem yang tangguh.",
+            bio: "Seorang pelajar yang memiliki minat besar terhadap dunia teknologi, dengan fokus pada modifikasi aplikasi, editing, dan eksplorasi perangkat lunak. Saya percaya bahwa setiap proyek merupakan kesempatan untuk belajar, berkembang, dan terus meningkatkan kemampuan saya.",
             careerGoals: "Bertujuan mengarsiteki platform cloud dan seluler generasi berikutnya yang memberdayakan jutaan pengguna di seluruh dunia.",
             exploreBtn: "Jelajahi Karya",
             talkBtn: "Mari Berbincang",
