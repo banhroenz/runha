@@ -158,8 +158,8 @@ const translations = {
         projects: {
             title: "Proyek Unggulan",
             subtitle: "Aplikasi tingkat produksi yang dibangun dengan teknologi modern.",
-            liveDemo: "Download",
-            sourceCode: "Key"
+            Download: "Download",
+            Key: "Key"
         },
         portfolio: {
             title: "Galeri Portofolio",
