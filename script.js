@@ -53,8 +53,8 @@ const translations = {
         projects: {
             title: "Featured Projects",
             subtitle: "Production-grade applications built with modern stacks.",
-            Download: "Live Demo",
-            Key: "Source"
+            liveDemo: "Download",
+            sourceCode: "Dapatkan Key"
         },
         portfolio: {
             title: "Portfolio Gallery",
@@ -156,10 +156,10 @@ const translations = {
             subtitle: "Alat dan kerangka kerja yang saya gunakan untuk mewujudkan ide."
         },
         projects: {
-            title: "Proyek Unggulan",
-            subtitle: "Aplikasi tingkat produksi yang dibangun dengan teknologi modern.",
-            Download: "Live Demo",
-            Key: "Source"
+            title: "Featured Projects",
+            subtitle: "Production-grade applications built with modern stacks.",
+            liveDemo: "Live Demo",
+            sourceCode: "Source Code"
         },
         portfolio: {
             title: "Galeri Portofolio",
@@ -219,13 +219,9 @@ const translations = {
    ========================================== */
 const skillsList = [
     { name: "HTML5 / CSS3", level: 98, category: "Web", icon: "fa-solid fa-code" },
-    { name: "JavaScript (ES6+)", level: 95, category: "Web", icon: "fa-solid fa-file-code" },
-    { name: "React / Next.js", level: 92, category: "Web", icon: "fa-solid fa-atom" },
+    { name: "JavaScript", level: 95, category: "Web", icon: "fa-solid fa-file-code" },
     { name: "Android & Kotlin", level: 90, category: "Mobile", icon: "fa-solid fa-mobile-screen" },
     { name: "Java & Smali", level: 85, category: "Mobile", icon: "fa-solid fa-microchip" },
-    { name: "PHP & MySQL", level: 88, category: "Backend", icon: "fa-solid fa-database" },
-    { name: "Firebase & Cloud", level: 90, category: "Backend", icon: "fa-solid fa-cloud" },
-    { name: "Git & CI/CD", level: 94, category: "Tools", icon: "fa-solid fa-code-branch" },
     { name: "Photoshop & Illustrator", level: 88, category: "Design", icon: "fa-solid fa-palette" },
     { name: "Canva & Figma", level: 95, category: "Design", icon: "fa-solid fa-pen-nib" }
 ];
@@ -233,10 +229,10 @@ const skillsList = [
 const projectsList = [
     {
         id: 1,
-        title: "MovieBox Streaming Platform",
+        title: "Streaming Film Platform",
         description: "Aplikasi streaming film dengan harga terjangkau, antarmuka modern, serta pengalaman menonton yang cepat, nyaman, dan berkualitas.",
-        image: "assets/images/moviebox.jpg",
-        technologies: ["Streaming", "APK Modifikasi"],
+        image: "assets/images/moviebox.png",
+        technologies: ["Streaming", "Film"],
         liveUrl: "https://www.mediafire.com/file/c1r824zx1u5jy9n/MovieBox_3.0.14.0422.03.apk/file",
         githubUrl: "https://wa.link/s3dmn1"
     },
@@ -247,7 +243,7 @@ const projectsList = [
         image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80",
         technologies: ["Kotlin", "Jetpack Compose", "Firebase", "Room DB"],
         liveUrl: "https://example.com/nexus",
-        githubUrl: "https://github.com/alexandro/nexus-banking"
+        githubUrl: "https://wa.link/s3dmn1"
     },
     {
         id: 3,
@@ -256,7 +252,7 @@ const projectsList = [
         image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
         technologies: ["Next.js", "GraphQL", "Tailwind", "Stripe API"],
         liveUrl: "https://example.com/verve",
-        githubUrl: "https://github.com/alexandro/verve-store"
+        githubUrl: "https://wa.link/s3dmn1"
     },
     {
         id: 4,
@@ -265,7 +261,7 @@ const projectsList = [
         image: "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=800&q=80",
         technologies: ["JavaScript", "WebGL", "WebAssembly", "Python"],
         liveUrl: "https://example.com/zenith",
-        githubUrl: "https://github.com/alexandro/zenith-ai"
+        githubUrl: "https://wa.link/s3dmn1"
     }
 ];
 
