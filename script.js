@@ -218,11 +218,14 @@ const translations = {
    PORTFOLIO DATA COLLECTIONS
    ========================================== */
 const skillsList = [
-    { name: "HTML5 / CSS3", level: 98, category: "Web", icon: "fa-solid fa-code" },
-    { name: "JavaScript", level: 95, category: "Web", icon: "fa-solid fa-file-code" },
-    { name: "Android & Kotlin", level: 90, category: "Mobile", icon: "fa-solid fa-mobile-screen" },
-    { name: "Java & Smali", level: 85, category: "Mobile", icon: "fa-solid fa-microchip" },
-    { name: "Photoshop & Illustrator", level: 88, category: "Design", icon: "fa-solid fa-palette" },
+    { name: "HTML5 / CSS3", level: 77, category: "Web", icon: "fa-solid fa-code" },
+    { name: "JavaScript", level: 70, category: "Web", icon: "fa-solid fa-file-code" },
+    { name: "MT Manager", level: 93, category: "Mobile", icon: "fa-solid fa-mobile-screen" },
+    { name: "NP Manager", level: 91, category: "Mobile", icon: "fa-solid fa-mobile-screen" },
+    { name: "Mod Manager", level: 88, category: "Mobile", icon: "fa-solid fa-mobile-screen" },
+    { name: "Apk Editor", level: 96, category: "Mobile", icon: "fa-solid fa-mobile-screen" },
+    { name: "Java & Smali", level: 90, category: "Mobile", icon: "fa-solid fa-microchip" },
+    { name: "Photoshop & Illustrator", level: 93, category: "Design", icon: "fa-solid fa-palette" },
     { name: "Canva & Figma", level: 95, category: "Design", icon: "fa-solid fa-pen-nib" }
 ];
 
