@@ -51,8 +51,8 @@ const translations = {
             subtitle: "Tools and frameworks I leverage to bring concepts to life."
         },
         projects: {
-            title: "Featured Projects",
-            subtitle: "Production-grade applications built with modern stacks.",
+            title: "Projects Me",
+            subtitle: "Various applications and projects I have developed as part of my learning journey, exploration, and skill development in the world of technology.",
             liveDemo: "Download",
             sourceCode: "Dapatkan Key"
         },
@@ -156,8 +156,8 @@ const translations = {
             subtitle: "Alat dan kerangka kerja yang saya gunakan untuk mewujudkan ide."
         },
         projects: {
-            title: "Featured Projects",
-            subtitle: "Production-grade applications built with modern stacks.",
+            title: "Proyek Saya",
+            subtitle: "Berbagai aplikasi dan proyek yang saya kembangkan sebagai bagian dari perjalanan belajar, eksplorasi, dan pengembangan keterampilan di dunia teknologi.",
             liveDemo: "Live Demo",
             sourceCode: "Source Code"
         },
@@ -275,10 +275,10 @@ const galleryItems = [
 ];
 
 const timelineData = [
-    { year: "2023", title: "Started Programming Journey", description: "Dove into web fundamentals, HTML, CSS, and modern JavaScript. Built my first responsive landing pages." },
-    { year: "2024", title: "Android Development & Native Apps", description: "Mastered Android Studio, Kotlin, and Firebase integration. Developed and published multiple utility applications." },
-    { year: "2025", title: "Advanced Full-Stack Engineering", description: "Expanded into React, Node.js, and relational databases. Architected scalable web apps with seamless authentication." },
-    { year: "2026", title: "Senior Full-Stack & UI Specialist", description: "Focusing on micro-interactions, high-performance web systems, and mentoring junior developers worldwide." }
+    { year: "2023", title: "Awal Mengenal Modifikasi Aplikasi", description: "Mulai mengenal modifikasi aplikasi sederhana seperti mengubah nama, ikon, dan tampilan dasar aplikasi." },
+    { year: "2024", title: "Mengenal Modding Aplikasi & Game", description: "Mendalami modifikasi aplikasi dan game menggunakan Game Guardian serta memahami dasar-dasar proses modding." },
+    { year: "2025", title: "Pengembangan Fitur Aplikasi", description: "Mulai mempelajari pengeditan APK dengan menambahkan fitur seperti Toast, dialog login, sistem key, dan berbagai fungsi sederhana lainnya." },
+    { year: "2026", title: "Belajar Pengembangan Website", description: "Mulai mempelajari pengembangan web serta memahami dasar HTML, CSS, dan JavaScript untuk membangun website sederhana." }
 ];
 
 const favoritesList = [
